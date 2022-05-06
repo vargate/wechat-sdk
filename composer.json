@@ -1,0 +1,28 @@
+{
+    "name": "vargate/wechat-sdk",
+    "description": "Wechat SDK",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vargate\\WechatSDK\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vargate",
+            "email": "906259933@qq.com"
+        }
+    ],
+    "require": {
+        "ext-openssl": "*",
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/event-dispatcher": "^5.4",
+        "symfony/serializer": "^5.4",
+        "pimple/pimple": "^3.5"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4",
+        "monolog/monolog": "^2.5"
+    }
+}
